@@ -14,7 +14,7 @@
   <body style="height: 100vh">
     <nav class="navbar navbar-expand-lg navbar navbar-light">
       <div class="d-flex flex-nowrap w-100">
-        <a href="index.html" class="navbar-left pt-1 pb-1"><img src="logos/Logobig.png" style = "max-width:40%;"></a>
+        <a href="index.html" class="navbar-left pt-1 pb-1"><img src="logos/main.png" style = "max-width:35%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,12 +22,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Shop <span class="sr-only">(current)</span></a>
-          </li>
-          <li style="white-space: nowrap;" class="nav-item">
-            <a class="nav-link" href="maths.html">Gallery</a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose subject
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="physics.html">Physics</a>
+              <a class="dropdown-item" href="chemistry.html">Chemistry</a>
+              <a class="dropdown-item" href="biology.html">Biology</a>
+              <a class="dropdown-item" href="maths.html">Maths</a>
+              <a class="dropdown-item" href="psychology.html">Psychology</a>
+              <a class="dropdown-item" href="history.html">History</a>
+              <a class="dropdown-item" href="english.html">English</a>
+            </div>
+          </li>
+          <li style="white-space: nowrap;" class="nav-item">
+            <a class="nav-link" href="11+.html">11+ exam</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
@@ -44,6 +57,8 @@
           }
         }
          </style>
+        <div class="video-container" style="text-align:center">
+          <iframe width="90%" height="90%" src="https://www.youtube.com/embed/9R8q6LoVzDs?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <div hidden id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -75,171 +90,83 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
- </div>
- <h1 style="text-align: center; color: rgb(1, 0, 46);" class="pb-2">Custom Grip and Base Decal</h1>
- <h3 style="line-height:1.4;  color: rgb(44, 44, 44);" class="pb-3">
-   <small>
-    Looking for a unique revamp to your board? Our griptape and base carbon fiber decals can make a scratched board look brand new. The products below represent griptape (left) and base decal (right) for a skateboard of maximal-dimension 122cm by 26cm. Boards are not included, but our custom designs fit most boards. Designs are hand-selected by theme and are sure to bring character to any board.
-   </small>
- </h3>
- <div id='product-component-1678438271573'></div>
- <div id='product-component-1678439640278'></div>
- 
+      </div>
 
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="tel:+447500019019">
+            <div style="background-image: url('banners/spac-min.png')"class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #d3ffd5" class="subjecttext">Call Us!</h1>
+          </a>
+        </div>
+      </div>
 
- <script type="text/javascript">
- /*<![CDATA[*/
- (function () {
-   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-   if (window.ShopifyBuy) {
-     if (window.ShopifyBuy.UI) {
-       ShopifyBuyInit();
-     } else {
-       loadScript();
-     }
-   } else {
-     loadScript();
-   }
-   function loadScript() {
-     var script = document.createElement('script');
-     script.async = true;
-     script.src = scriptURL;
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-     script.onload = ShopifyBuyInit;
-   }
-   function ShopifyBuyInit() {
-     var client = ShopifyBuy.buildClient({
-       domain: 'symmetryskate.myshopify.com',
-       storefrontAccessToken: '76cd6887358ed224584dd5ec3278ff2a',
-     });
-     ShopifyBuy.UI.onReady(client).then(function (ui) {
-       ui.createComponent('product', {
-         id: '8163286516000',
-         node: document.getElementById('product-component-1678439640278'),
-         moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
-         options: {
-   "product": {
-     "styles": {
-       "product": {
-         "@media (min-width: 601px)": {
-           "max-width": "calc(25% - 20px)",
-           "margin-left": "20px",
-           "margin-bottom": "50px"
-         }
-       },
-       "button": {
-         "font-family": "Open Sans, sans-serif",
-         ":hover": {
-           "background-color": "#5a9fe6"
-         },
-         "background-color": "#64b1ff",
-         ":focus": {
-           "background-color": "#5a9fe6"
-         },
-         "border-radius": "18px",
-         "padding-left": "67px",
-         "padding-right": "67px"
-       }
-     },
-     "text": {
-       "button": "Add to cart"
-     },
-     "googleFonts": [
-       "Open Sans"
-     ]
-   },
-   "productSet": {
-     "styles": {
-       "products": {
-         "@media (min-width: 601px)": {
-           "margin-left": "-20px"
-         }
-       }
-     }
-   },
-   "modalProduct": {
-     "contents": {
-       "img": false,
-       "imgWithCarousel": true,
-       "button": false,
-       "buttonWithQuantity": true
-     },
-     "styles": {
-       "product": {
-         "@media (min-width: 601px)": {
-           "max-width": "100%",
-           "margin-left": "0px",
-           "margin-bottom": "0px"
-         }
-       },
-       "button": {
-         "font-family": "Open Sans, sans-serif",
-         ":hover": {
-           "background-color": "#5a9fe6"
-         },
-         "background-color": "#64b1ff",
-         ":focus": {
-           "background-color": "#5a9fe6"
-         },
-         "border-radius": "18px",
-         "padding-left": "67px",
-         "padding-right": "67px"
-       }
-     },
-     "googleFonts": [
-       "Open Sans"
-     ],
-     "text": {
-       "button": "Add to cart"
-     }
-   },
-   "option": {},
-   "cart": {
-     "styles": {
-       "button": {
-         "font-family": "Open Sans, sans-serif",
-         ":hover": {
-           "background-color": "#5a9fe6"
-         },
-         "background-color": "#64b1ff",
-         ":focus": {
-           "background-color": "#5a9fe6"
-         },
-         "border-radius": "18px"
-       }
-     },
-     "text": {
-       "total": "Subtotal",
-       "button": "Checkout"
-     },
-     "googleFonts": [
-       "Open Sans"
-     ]
-   },
-   "toggle": {
-     "styles": {
-       "toggle": {
-         "font-family": "Open Sans, sans-serif",
-         "background-color": "#64b1ff",
-         ":hover": {
-           "background-color": "#5a9fe6"
-         },
-         ":focus": {
-           "background-color": "#5a9fe6"
-         }
-       }
-     },
-     "googleFonts": [
-       "Open Sans"
-     ]
-   }
- },
-       });
-     });
-   }
- })();
- /*]]>*/
- </script>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="physics.html">
+            <div style="background-image: url('banners/physicslr.jpg')"class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #d7ccff" class="subjecttext">Physics</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="maths.html">
+            <div style="background-image: url('banners/mathslr.jpg')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #f4fde3" class="subjecttext">Maths</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="biology.html">
+            <div style="background-image: url('banners/biologylr.jpg')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #ccffe6" class="subjecttext">Biology</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="chemistry.html">
+            <div style="background-image: url('banners/chemistrylr.png')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #edffcc" class="subjecttext">Chemistry</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="psychology.html">
+            <div style="background-image: url('banners/psychologylr.jpg')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #ccecff" class="subjecttext">Psychology</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="history.html">
+            <div style="background-image: url('banners/historylr.jpeg')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #fff3cc" class="subjecttext">History</h1>
+          </a>
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="subjectbg">
+          <a style="text-decoration : none" href="english.html">
+            <div style="background-image: url('banners/English\ bannerlr.jpeg')" class="subjectimg"></div>
+            <div class="subjectoverlay"></div>
+            <h1 style="color: #fcd7f3" class="subjecttext">English</h1>
+          </a>
+        </div>
+      </div>
+</div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
